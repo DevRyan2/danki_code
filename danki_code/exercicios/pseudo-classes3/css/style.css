@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.parent {
+  background-color: #069;
+  width: 100%;
+  padding: 90px 0;
+  text-align: center;
+}
+
+.item {
+  display: inline-block;
+  width: 300px;
+  height: 300px;
+  background-color: green;
+  margin: 20px 0;
+}
+
+/*
+
+Fórmulas: Estamos dizendo que à cada 3 elementos aplicamos aplique o estilo, incluindo o 3.
+
+.parent div:nth-of-type(2n + 1) div.item {
+    background-color: red;
+}
+
+*/
+
+
+/*
+.parent div:first-child div.item {
+    background-color: purple;
+}
+*/
+
+
+/*
+
+.parent p:first-child {
+  background-color: orange;
+}
+*/
+
+
+/*
+.parent p:first-of-type {
+  color: orange;
+}
+
+*/
